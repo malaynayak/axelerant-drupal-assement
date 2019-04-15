@@ -1,0 +1,11 @@
+site_info_extras.page_json:
+  path: '/page_json/{api_key}/{node}'
+  defaults:
+    _title: 'Page Json'
+    _controller: '\Drupal\site_info_extras\Controller\PageJsonController::response'
+  requirements:
+    _api_key_access_check: 'TRUE'
+  options:
+    parameters:
+      node:
+        type: entity:node

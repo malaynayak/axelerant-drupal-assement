@@ -1,0 +1,7 @@
+site_info.extras:
+  type: config_object
+  label: 'Extra Site Informations'
+  mapping:
+    site_api_key:
+      type: text
+      label: 'Site API Key'

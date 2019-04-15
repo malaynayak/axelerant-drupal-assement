@@ -1,0 +1,6 @@
+services:
+  site_info_extras.api_key_access_checker:
+    class: Drupal\site_info_extras\Access\APIKeyAccessCheck
+    arguments: ['@current_route_match', '@config.factory']
+    tags:
+      - { name: access_check, applies_to: _api_key_access_check }

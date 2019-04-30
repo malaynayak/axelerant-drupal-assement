@@ -1,6 +1,6 @@
 name: 'Site Info Extras'
 type: module
-description: 'Add extra configurations to site related information.'
+description: 'Add extra configurations to site information.'
 core: 8.x
 package: Other
 dependencies:
